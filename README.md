@@ -1,0 +1,4 @@
+cube
+====
+
+Glowing Thermometer Cube
