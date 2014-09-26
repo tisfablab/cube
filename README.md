@@ -47,4 +47,4 @@ Glowing Thermometer Cube
  In order to compile this sketch you will need two additional libraries:
   * http://playground.arduino.cc/Main/CapacitiveSensor
   * https://github.com/adafruit/Adafruit_NeoPixel
-  *
+  
