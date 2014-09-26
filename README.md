@@ -41,3 +41,10 @@ Glowing Thermometer Cube
  * The touch antenna, which is a bent piece of wire, is connected to pin 12.
    Pin 12 is also connected via a 100pF capacitor to GND (nearby pin).
    Pins 10 and 12 are conneced via a 10MOhm resistor.
+
+====
+
+ In order to compile this sketch you will need two additional libraries:
+  * http://playground.arduino.cc/Main/CapacitiveSensor
+  * https://github.com/adafruit/Adafruit_NeoPixel
+  *
