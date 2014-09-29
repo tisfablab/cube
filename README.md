@@ -1,11 +1,16 @@
-cube
-====
-
 Glowing Thermometer Cube
-====
+===
    Lange Nacht der Forschung / Lunga notte della Ricerca 2014 @ TIS FabLab
 
- The Glowing Thermometer Cube is an Arduino controlled RGB LED inside a 
+===
+
+ Important: In order to compile this sketch you will need two additional libraries:
+  * http://playground.arduino.cc/Main/CapacitiveSensor
+  * https://github.com/adafruit/Adafruit_NeoPixel
+ 
+===
+
+  The Glowing Thermometer Cube is an Arduino controlled RGB LED inside a 
  translucent white cube. By touching the touch sensitive area (near the bent 
  wire) you can switch between 2 modes:
  
@@ -24,7 +29,7 @@ Glowing Thermometer Cube
  When you power on the lamp it blinks red. Please touch the capacitive sensor
  for 1-2 seconds to calibrate it.
  
-====
+===
  
  This sketch  works with an Arduino Leonardo with the following components 
  plugged directly into the specified pins:
@@ -42,9 +47,4 @@ Glowing Thermometer Cube
    Pin 12 is also connected via a 100pF capacitor to GND (nearby pin).
    Pins 10 and 12 are conneced via a 10MOhm resistor.
 
-====
 
- In order to compile this sketch you will need two additional libraries:
-  * http://playground.arduino.cc/Main/CapacitiveSensor
-  * https://github.com/adafruit/Adafruit_NeoPixel
-  
